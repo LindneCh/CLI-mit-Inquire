@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-// import inquirer from "inquirer";
-// import fs from "fs";
+import inquirer from "inquirer";
+import fs from "fs";
 import os from "os";
-// import chalk from "chalk";
+import chalk from "chalk";
 
 
 //A////////////
@@ -10,5 +10,7 @@ import os from "os";
 const os = require('os');
  
 // Printing os.platform() value
-console.log(process.platform);
+console.log(os.platform());
 //E/////////////
+
+function 
